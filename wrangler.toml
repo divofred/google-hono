@@ -1,0 +1,25 @@
+name = "google"
+compatibility_date = "2023-12-01"
+compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+GOOGLE_CALLBACK_URL = "http://127.0.0.1:8787/auth/callback/google"
+GOOGLE_CLIENT_SECRET = ""
+GOOGLE_CLIENT_ID = ""
+AUTH_SECRET = ""
+
+[site]
+bucket = "./public"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
